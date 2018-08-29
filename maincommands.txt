@@ -1,0 +1,81 @@
+    1  apt update
+    2  apt upgrade -y
+    3  root
+    4  man sudo_root
+    5  apt update
+    6  sudo apt update
+    7  sudo  apt upgrade -y
+    8  sudo apt purge openjdk*
+    9  sudo  add-apt-repository -y ppa:webupd8team/java
+   10  sudo  apt update
+   11  sudo apt install -y oracle-java8-installer
+   12  java -version
+   13  sudo nano  /etc/profile
+   14  source /etc/profile
+   15  sudo nano  /etc/sysctl.conf
+   16  cd
+   17  sudo apt-get install mysql-server
+   18  sudo mkdir Pig
+   19  ls
+   20  cd
+   21  cd Downloads
+   22  sudo mv pig-0.15.0/* /usr/local/hadoop/Pig/
+   23  wget https://archive.apache.org/dist/pig/pig-0.15.0/pig-0.15.0.tar.gz
+   24  sudo mv pig-0.15.0/* /usr/local/hadoop/Pig/
+   25  cd
+   26  sudo mv pig-0.15.0/* /usr/local/hadoop/Pig/
+   27  sudo mkdir Pig
+   28  ls
+   29  cd Downloads
+   30  sudo tar zxvf pig-0.15.0.tar.gz
+   31  sudo mv pig-0.15.0/* /usr/local/hadoop/Pig/
+   32  cd /usr/local/hadoop/Pig/
+   33  ls
+   34  su hadoopuser
+   35  cd
+   36  wget www.scala-lang.org/files/archive/scala-2.11.0.deb
+   37  sudo dpkg -i scala-2.11.0.deb
+   38  scala -version
+   39  sudo nano hw.scala
+   40  sudo scala hw.scala
+   41  spark -shell
+   42  sudo spark-shell
+   43  sudo scala
+   44  jupyter notebook
+   45  wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+   46  cd
+   47  sudo nano hw2.scala
+   48  sudo nano hw6.scala
+   49  sudo scala hw6.scala
+   50  cd
+   51  wget https://repo.anaconda.com/archive/Anaconda3-5.2.0-Linux-x86_64.sh
+   52  h Anaconda3-5.2.0-Linux-x86_64.sh
+   53  bash Anaconda3-5.2.0-Linux-x86_64.sh
+   54  cd
+   55  source .bashrc
+   56  jupyter notebook
+   57  source .bashrc
+   58  jupyter notebook
+   59  source .bashrc
+   60  jupyter notebook
+   61  sudo jupyter notebook
+   62  jupyter notebook
+   63  nano .bashrc
+   64  jupyter notebook
+   65  source .bashrc
+   66  jupyter notebook
+   67  export XDG_RUNTIME_DIR="" 
+   68  jupyter notebook
+   69  cd
+   70  sudo nano hw2.scala
+   71  sudo scala hw2.scala
+   72  sudo nano hw2.scala
+   73  sudo scala hw2.scala
+   74  sudo nano hw2.scala
+   75  sudo scala hw2.scala
+   76  sudo nano hw2.scala
+   77  sudo scala hw2.scala
+   78  sudo nano hw2.scala
+   79  sudo scala hw2.scala
+   80  cd
+   81  history >maincommands.txt
