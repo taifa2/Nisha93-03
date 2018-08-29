@@ -1,0 +1,211 @@
+    1  mkdir MapReduceTutorial/
+    2  mkdir MapReduceTutorial
+    3  mkdir MapReduceTutorial/
+    4  chmod -R 777 MapReduceTutorial
+    5  cd
+    6  mkdir MapReduceTutorial/
+    7  chmod -R 777 MapReduceTutorial
+    8  mkdir MapReduceTutorial
+    9  chmod -R 777 MapReduceTutorial
+   10  chmod  +r *.*
+   11  editor ~/.bashrc
+   12  source ~/.bashrc
+   13  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   14  gedit Manifest.txt
+   15  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   16  hadoop fs -mkdir /inputMapReduce
+   17  hadoop fs -put SalesJan2009.csv /inputMapReduce
+   18  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   19  hadoop fs -cat /mapreduce_output_sales/part-00000
+   20  HADOOP_HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   21  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   22  hadoop fs -cat /mapreduce_output_sales/part-00000
+   23  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   24  chmod -R 777 MapReduceTutorial
+   25  chmod -R 777 MapReduceTutorial
+   26  chmod R 777 MapReduceTutorial
+   27  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   28  chmod -R 777 MapReduceTutorial
+   29  cd
+   30  chmod -R 777 MapReduceTutorial
+   31  editor ~/.bashrc
+   32  source  ~/.bashrc
+   33  cd MapReduceTutorial/
+   34  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   35  gedit Manifest.txt
+   36  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   37  hadoop fs -mkdir /inputMapReduce
+   38  hadoop fs -put SalesJan2009.csv /inputMapReduce
+   39  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   40  HADOOP-HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   41  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   42  hadoop fs -cat /mapreduce_output_sales/part-00000
+   43  hadoop fs -cat /mapreduce_output_sales/part-00001
+   44  editor ~/.bashrc
+   45  source  ~/.bashrc
+   46  source ~/.bashrc
+   47  editor ~/.bashrc
+   48  source ~/.bashrc
+   49  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   50  hadoop fs -mkdir /inputMapReduce
+   51  hadoop fs -put SalesJan2009.csv /inputMapReduce
+   52  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   53  HADOOP_H0ME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   54  HADOOP_H0ME /bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   55  chmod +r *.*
+   56  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   57  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   58  HADOOP_HOME/bin/hdfs dfs -ls /inputMapReduce
+   59  HADOOP_HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   60  chmod +r *.*
+   61  cd
+   62  editor ~/.bashrc
+   63  source ~/.bashrc
+   64  cd MapReduceTutorial/
+   65  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   66  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   67  HADOOP_HOME/bin/hdfs dfs -copyFromLocal ~/inputMapReduce /
+   68  HADOOP_HOME/bin/hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   69  mkdir MapReduceTutorial/
+   70  cd
+   71  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   72  hadoop fs -cat /mapreduce_output_sales/part-00000
+   73  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   74  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   75  hadoop fs -cat /mapreduce_output_sales/part-00000
+   76  cd
+   77  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   78  chmod -R 777 MapReduceTutorial
+   79  c
+   80  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   81  hadoop fs -mkdir /inputMapReduce
+   82  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   83  hadoop fs -put SalesJan2009.csv /inputMapReduce
+   84  HADOOP-HOME/bin/ hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   85  mkdir MapReduceTutorial
+   86  chmod  +r *.*
+   87  editor ~/.bashrc
+   88  source ~/.bashrc
+   89  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   90  SalesMapper.java 
+   91  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+   92  editor ~/.bashrc
+   93  source ~/.bashrc
+   94  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+   95  gedit Manifest.txt
+   96  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+   97  hadoop fs -mkdir /inputMapReduce
+   98  cd
+   99  editor ~/.bashrc
+  100  source ~/.bashrc
+  101  MapReduceTutorial/
+  102  chmod  +r *.*
+  103  hadoop fs -mkdir /inputMapReduce
+  104  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+  105  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  106  editor ~/.bashrc
+  107  source ~/.bashrc
+  108  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+  109  nano wordcount.java
+  110  hadoop com.sun.tools.javac.Main WordCount.java
+  111  jar cf wc.jar WordCount*.class
+  112  hadoop jar wc.jar WordCount /user/joe/wordcount/input /user/joe/wordcount/output
+  113  hadoop fs -cat /user/joe/wordcount/output/part-00000
+  114  hadoop fs -mkdir /inputMapReduce
+  115  mkdir MapReduceTutorial
+  116  su nisha
+  117  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  118  su nisha
+  119  ls_al
+  120  ls-al
+  121  ls - al
+  122  ls -al
+  123  chmod  +r *.*
+  124  cd $HADOOP_HOME/share/hadoop/mapreduce/
+  125  ls
+  126  cd $HADOOP_HOME/share/hadoop/mapreduce/
+  127  ls
+  128  cd $HADOOP_HOME/share/hadoop/common/
+  129  ls
+  130  export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.8.4.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.8.4.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.8.4.jar:~/MapReduceTutorial/SalesCountry/*:$HADOOP_HOME/lib/*"
+  131  editor ~/.bashrc
+  132  cd
+  133  editor ~/.bashrc
+  134  source ~/.bashrc
+  135  cd MapReduceTutorial/
+  136  javac -d . SalesMapper.java SalesCountryReducer.java SalesCountryDriver.java
+  137  gedit Manifest.txt
+  138  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+  139  hadoop fs -mkdir /inputMapReduce
+  140  hadoop fs -put SalesJan2009.csv /inputMapReduce
+  141  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  142  hadoop fs -cat /mapreduce_output_sales/part-00000
+  143  java -version
+  144  cd
+  145  ls
+  146  mkdir MapReduceTutorial
+  147  chmod -R 777 MapReduceTutorial
+  148  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/*.class
+  149  ls
+  150  nano Manifest.txt 
+  151  jar cfm ProductSalePerCountry.jar Manifest.txt SalesCountry/SalesCountryDriver.class 
+  152  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  153  ls
+  154  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales/
+  155  jps
+  156  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales/
+  157  hadoop jar ProductSalePerCountry.jar /inputMapReduce/ /mapreduce_output_sales/
+  158  ls
+  159  nano Manifest.txt 
+  160  hadoop jar ProductSalePerCountry.jar /inputMapReduce/ /mapreduce_output_sales/
+  161  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  162  editor ~/.bashrc
+  163  export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-c$
+  164  editor ~/.bashrc
+  165  source ~/.bashrc
+  166  export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-c$
+  167  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  168  editor ~/.bashrc
+  169  gedit ~/.bashrc
+  170  export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.8.4.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.8.4.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.8.4.jar:~/MapReduceTutorial/SalesCountry/*:$HADOOP_HOME/lib/*"
+  171  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  172  chmod +r *.*
+  173  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  174  ls
+  175  export CLASSPATH="$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.8.4.jar:$HADOOP_HOME/share/hadoop/mapreduce/hadoop-mapreduce-client-common-2.8.4.jar:$HADOOP_HOME/share/hadoop/common/hadoop-common-2.8.4.jar:~/MapReduceTutorial/SalesCountry/*:$HADOOP_HOME/lib/*"
+  176  hadoop jar ProductSalePerCountry.jar /inputMapReduce /mapreduce_output_sales
+  177  spark-shell
+  178  cat input.txt
+  179  nano input.txt
+  180  val inputfile = sc.textFile("file:///home/hadoopuser/input.txt")
+  181  spark-shell
+  182  cd Downloads
+  183  ls
+  184  wget https://archive.apache.org/dist/pig/pig-0.15.0/pig-0.15.0.tar.gz
+  185  sudo tar zxvf pig-0.15.0.tar.gz
+  186  cd /usr/local/hadoop
+  187  su nisha
+  188  cd
+  189  nano .bashrc
+  190  source .bashrc
+  191  pig
+  192  spark-shell
+  193  hive
+  194  jps
+  195  start-dfs.sh
+  196  start-yarn.sh
+  197  jps
+  198  python.py
+  199  python
+  200  jps
+  201  cd
+  202  spark-shell
+  203  hive
+  204  hdfs dfs -put input3.txt /
+  205  hadoop fs -put input3.txt /
+  206  hadoop fs -cat input3.txt
+  207  hdfs dfs -cat input3.tx
+  208  hdfs dfs -cat input3.txt
+  209  hdfs dfs -cat /input3.txt
+  210  hive
+  211  history > hadoopusercommands.txt
